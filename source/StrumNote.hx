@@ -2,6 +2,8 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
+import PlayState;
+import Paths;
 
 using StringTools;
 
