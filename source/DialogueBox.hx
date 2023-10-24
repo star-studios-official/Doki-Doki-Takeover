@@ -19,6 +19,8 @@ import openfl.filters.ShaderFilter;
 import shaders.StaticShader;
 import haxe.Json;
 import lime.utils.Assets;
+import PlayState;
+import Paths;
 #if FEATURE_GAMEJOLT
 import GameJolt.GameJoltAPI;
 #end
