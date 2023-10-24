@@ -22,6 +22,8 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import flixel.group.FlxGroup;
 import shaders.ColorMaskShader;
+import PlayState;
+import Paths;
 #if FEATURE_DISCORD
 import Discord.DiscordClient;
 #end
