@@ -7,6 +7,8 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import lime.utils.Assets;
 import haxe.Json;
+import PlayState
+import Paths
 
 using StringTools;
 
