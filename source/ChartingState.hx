@@ -40,6 +40,8 @@ import openfl.media.Sound;
 import openfl.net.FileReference;
 import openfl.utils.ByteArray;
 import sys.FileSystem;
+import PlayState;
+import Paths;
 
 using StringTools;
 
