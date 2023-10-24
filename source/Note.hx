@@ -7,6 +7,8 @@ import flixel.math.FlxMath;
 import flixel.math.FlxRect;
 import flixel.util.FlxColor;
 import flash.display.BitmapData;
+import PlayState;
+import Paths;
 
 using StringTools;
 
