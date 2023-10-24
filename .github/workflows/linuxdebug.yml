@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
           name: DDTO-Linux-Debug
-          path: 'export/release/linux/bin'
+          path: 'export/debug/linux/bin'
 
       - name: Clear Previous Cache
         uses: actions/github-script@v6
@@ -71,7 +71,7 @@ jobs:
           key: cache-build-linux
           path: |
             .haxelib/
-            export/release/linux/haxe/
-            export/release/linux/obj/
+            export/debug/linux/haxe/
+            export/debug/linux/obj/
           restore-keys: |
             cache-build-linux
