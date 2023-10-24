@@ -32,6 +32,7 @@ jobs:
         run: |
             haxelib setup ~/haxelib
             haxelib install hxcpp > /dev/null --quiet
+            haxelib install hxcpp-debug-server > /dev/null --quiet
             haxelib install hmm --quiet
             haxelib run hmm install
 
