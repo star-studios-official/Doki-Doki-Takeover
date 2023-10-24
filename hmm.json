@@ -45,8 +45,9 @@
 		},
 		{
 			"name": "hxCodec",
-			"type": "haxelib",
-			"version": "2.5.1"
+			"type": "git",
+			"ref": "main",
+			"url": "https://github.com/Raltyro/hxCodec.git"
 		},
 		{
 			"name": "discord_rpc",
